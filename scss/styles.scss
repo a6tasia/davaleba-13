@@ -1,0 +1,56 @@
+body {
+  width: 1024px;
+  font-family: roboto;
+}
+
+section {
+  padding: 20px 136px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  ul {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 240px;
+    gap: 35px;
+  }
+  li {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+  }
+}
+.trands {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+.cardimg {
+  display: flex;
+}
+
+.cards {
+}
+.card {
+  height: 339px;
+  width: 362px;
+}
+
+.potodiv {
+  width: 362px;
+  height: 171px;
+  background-color: #5a5a5a;
+  position: relative;
+}
+.imgtext {
+  display: flex;
+  color: white;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50% -50%);
+  position: absolute;
+}
